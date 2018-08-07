@@ -3,6 +3,9 @@
 language: generic
 install: skip
 
+resources:
+  gpu: true
+
 env:
   global:
     - FOO=master
