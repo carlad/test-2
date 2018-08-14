@@ -16,7 +16,7 @@ jobs:
   include:
     - name: one
       script: echo one
-      if: env(FOO) = ^master$
+      if: env(FOO) =~ ^master$
     - name: two
       script: echo two
       if: env(FOO) != branch
