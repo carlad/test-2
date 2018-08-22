@@ -5,6 +5,8 @@ install: skip
 
 resources:
   gpu: true
+  
+script: sleep 120
 
 env:
   global:
@@ -15,8 +17,6 @@ env:
 jobs:
   include:
     - name: one
-      script: echo one
       if: env(FOO) =~ ^master$
     - name: two
-      script: echo two
       if: env(FOO) != branch
