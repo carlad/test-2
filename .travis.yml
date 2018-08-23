@@ -6,7 +6,11 @@ install: skip
 resources:
   gpu: true
   
-script: sleep 120
+script: sleep 120 
+
+if:
+- foo
+- bar
 
 env:
   global:
