@@ -3,7 +3,7 @@
 language: generic
 install: skip
   
-script: sleep $(seq 10 360 | sort -R | head -n 1)
+script: sec=$(seq 10 360 | sort -R | head -n 1); echo $sec; sleep $sec
 
 env:
   global:
