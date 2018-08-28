@@ -1,12 +1,11 @@
-yo kaputt
-broken: yaml
-
 # version: '= 0'
 
 language: generic
 install: skip
   
 script: sec=$(seq 10 360 | sort -R | head -n 1); echo $sec; sleep $sec
+
+if: kaputt condition
 
 env:
   global:
