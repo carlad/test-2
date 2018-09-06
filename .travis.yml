@@ -19,3 +19,6 @@ jobs:
       if: env(FOO) =~ ^master$
     - name: two
       if: env(FOO) != branch
+      
+notifications:
+  webhooks: http://postb.in/b/qraQpPEu
