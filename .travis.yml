@@ -21,4 +21,5 @@ jobs:
       if: env(FOO) != branch
       
 notifications:
+  email: sven@travis-ci.com
   webhooks: https://postb.in/Ko2kNUuW
