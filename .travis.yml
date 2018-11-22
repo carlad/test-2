@@ -1,6 +1,6 @@
 # version: '= 0'
 
-language: generic
+language: ruby
 install: skip
 resources:
   gpu: true
