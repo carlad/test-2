@@ -1,6 +1,6 @@
 # version: '= 0'
 
-language: generic
+language: ruby
 install: skip
   
 script: sec=$(seq 5 15 | sort -R | head -n 1); echo $sec; sleep $sec
