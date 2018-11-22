@@ -1,9 +1,7 @@
 # version: '= 0'
 
-language: ruby
+language: generic
 install: skip
-resources:
-  gpu: true
   
 script: sec=$(seq 5 15 | sort -R | head -n 1); echo $sec; sleep $sec
 
