@@ -19,11 +19,4 @@ jobs:
       if: env(FOO) != branch
       
 notifications:
-  email:
-    recipients:
-      - sven@travis-ci.com
-    on_success: always
-  webhooks: 
-    urls:
-      - https://postb.in/cpIAJarr
-    on_success: always    
+  webhooks: https://hookb.in/pzZmLKRdOzFdVgL1dqOq
