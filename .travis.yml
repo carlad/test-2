@@ -20,4 +20,4 @@ jobs:
       
 notifications:
   email: sven@travis-ci.com
-  webhooks: https://postb.in/b/1W8X4xw7
+  webhooks: https://postb.in/b/cpIAJarr
