@@ -25,5 +25,5 @@ notifications:
     on_success: always
   webhooks: 
     urls:
-      - https://postb.in/b/cpIAJarr
+      - https://postb.in/cpIAJarr
     on_success: always    
