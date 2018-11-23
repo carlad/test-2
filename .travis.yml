@@ -23,5 +23,7 @@ notifications:
     recipients:
       - sven@travis-ci.com
     on_success: always
-  webhooks: https://postb.in/b/cpIAJarr
-    
+  webhooks: 
+    urls:
+      - https://postb.in/b/cpIAJarr
+    on_success: always    
