@@ -17,6 +17,12 @@ jobs:
       if: env(FOO) =~ ^master$
     - name: two
       if: env(FOO) != branch
-      
-notifications:
-  webhooks: https://hookb.in/pzZmLKRdOzFdVgL1dqOq
+  
+before_deploy:
+  - mkdir -p foo/bar
+  - cd foo/bar
+  
+deploy:
+  provider: script
+  script: pwd
+  
