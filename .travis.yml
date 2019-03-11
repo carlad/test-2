@@ -1,1 +1,2 @@
 template: svenfuchs/test-2/other.yml
+script: echo foo
