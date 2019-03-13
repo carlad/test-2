@@ -1,1 +1,1 @@
-template: svenfuchs/test-2/other.yml
+import: svenfuchs/test-2/other.yml
