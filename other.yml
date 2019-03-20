@@ -1,2 +1,4 @@
 language: bash
 script: echo "hello from other.yml"
+env:
+  BAR: bar
