@@ -1,5 +1,7 @@
 language: bash
-script: echo "hello from other.yml"
+
 env:
   global:
     BAR: bar
+
+script: echo "hello from other.yml"
