@@ -1,6 +1,8 @@
 import: 
   source: svenfuchs/test-2/other.yml
   mode: deep_merge
-before_script: echo "hello from .travis.yml"
+  
 env:
   FOO: foo
+
+before_script: echo "hello from .travis.yml"
