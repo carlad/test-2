@@ -1,2 +1,4 @@
 import: svenfuchs/test-2/other.yml
 before_script: echo "hello from .travis.yml"
+env:
+  FOO: foo
