@@ -1,5 +1,5 @@
 import: 
-  source: svenfuchs/test-2/other.yml
+  source: ./other.yml
   mode: deep_merge
 
 env:
