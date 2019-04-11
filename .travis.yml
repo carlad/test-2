@@ -1,9 +1,9 @@
 import: 
   source: ./other.yml
-  mode: deep_merge
+  mode: replace
 
 env:
   global: foo
-     FOO: foo
+    #FOO: foo
 
 before_script: echo "hello from .travis.yml"
