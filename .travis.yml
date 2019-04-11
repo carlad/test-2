@@ -4,6 +4,6 @@ import:
 
 env:
   global: foo
-#    FOO: foo
+     FOO: foo
 
 before_script: echo "hello from .travis.yml"
